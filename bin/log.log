@@ -1,0 +1,583 @@
+[   0.008][v][cplayer] Command line options: '--log-file=.\log.log' 'S:\0905_배시내_석쇠불고기 골목.ts'
+[   0.008][v][cplayer] mpv 0.25.0 (C) 2000-2017 mpv/MPlayer/mplayer2 projects
+[   0.008][v][cplayer]  built on Sun Apr 23 03:06:36 CEST 2017
+[   0.008][v][cplayer] ffmpeg library versions:
+[   0.008][v][cplayer]    libavutil       55.61.100
+[   0.008][v][cplayer]    libavcodec      57.93.100
+[   0.008][v][cplayer]    libavformat     57.72.101
+[   0.008][v][cplayer]    libswscale      4.7.101
+[   0.008][v][cplayer]    libavfilter     6.86.100
+[   0.008][v][cplayer]    libswresample   2.8.100
+[   0.008][v][cplayer] ffmpeg version: N-85608-g7c0d12010f
+[   0.008][v][cplayer] 
+[   0.008][v][cplayer] Configuration: /home/lachs0r/mingw-w64-cmake/buildroot/build32/packages/mpv-prefix/src/mpv/waf configure --enable-static-build --enable-pdf-build --disable-manpage-build --enable-libmpv-shared --enable-encoding --enable-egl-angle-lib --enable-lua --enable-libarchive --enable-libass --enable-libbluray --enable-dvdread --enable-dvdnav --enable-uchardet --enable-rubberband --enable-lcms2 --prefix=/home/lachs0r/mingw-w64-cmake/buildroot/build32/prefix/mingw
+[   0.009][v][cplayer] List of enabled features: asm atomics avutil-imgcpy-uc build-date c11-tls cplayer cuda-hwaccel d3d-hwaccel debug-build direct3d dlopen dos-paths dvdnav dvdread dvdread-common egl-angle egl-angle-lib egl-helpers encoding gcc-tls gl gl-dxinterop gl-win32 glob-win32-replacement gnuc iconv is_ffmpeg jpeg lcms2 libarchive libass libass-osd libav libavcodec libavdevice libbluray libm libmpv-shared lua luajit mingw noexecstack optimize plain-gl posix-or-mingw rubberband sse4-intrinsics static-build stdatomic subprocess tv uchardet wasapi win32 win32-internal-pthreads zlib
+[   0.010][v][cplayer] Setting option 'log-file' = '.\log.log' (flags = 8)
+[   0.013][v][ifo] Opening C:/util/mpv-i686-20170423/mpv/input.conf
+[   0.013][v][ifo_dvdnav] Opening C:/util/mpv-i686-20170423/mpv/input.conf
+[   0.013][v][bdmv/bluray] Opening C:/util/mpv-i686-20170423/mpv/input.conf
+[   0.014][v][file] Opening C:/util/mpv-i686-20170423/mpv/input.conf
+[   0.014][v][file] Stream opened successfully.
+[   0.014][v][input] Parsing input config file C:/util/mpv-i686-20170423/mpv/input.conf
+[   0.014][v][input] Input config file C:/util/mpv-i686-20170423/mpv/input.conf parsed: 6 binds
+[   0.014][v][global] user path: '.\log.log' -> '.\log.log'
+[   0.014][v][osc] Loading lua script @osc.lua...
+[   0.015][v][global] config path: 'scripts' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/scripts'
+[   0.015][v][global] config path: 'scripts' -/-> 'C:/util/mpv-i686-20170423/scripts'
+[   0.015][v][global] config path: 'scripts' -/-> 'C:/util/mpv-i686-20170423/mpv/scripts'
+[   0.015][v][osc] loading mp.defaults
+[   0.016][v][osc] loading @osc.lua
+[   0.021][v][global] config path: 'lua-settings/osc.conf' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/lua-settings/osc.conf'
+[   0.021][v][global] config path: 'lua-settings/osc.conf' -/-> 'C:/util/mpv-i686-20170423/lua-settings/osc.conf'
+[   0.021][v][global] config path: 'lua-settings/osc.conf' -/-> 'C:/util/mpv-i686-20170423/mpv/lua-settings/osc.conf'
+[   0.021][v][osc] lua-settings/osc.conf not found. 
+[   0.021][v][cplayer] Run command: define-section, flags=0, args=[showhide, mouse_move script-binding osc/__keybinding1
+[   0.021][v][cplayer] mouse_leave script-binding osc/__keybinding2
+[   0.021][v][cplayer] , force]
+[   0.021][v][cplayer] Run command: enable-section, flags=0, args=[showhide, allow-hide-cursor+allow-vo-dragging]
+[   0.021][v][cplayer] Run command: define-section, flags=0, args=[input, mouse_btn0 script-binding osc/__keybinding3
+[   0.021][v][cplayer] shift+mouse_btn0 script-binding osc/__keybinding4
+[   0.021][v][cplayer] mouse_btn2 script-binding osc/__keybinding5
+[   0.021][v][cplayer] mouse_btn3 script-binding osc/__keybinding6
+[   0.021][v][cplayer] mouse_btn4 script-binding osc/__keybinding7
+[   0.021][v][cplayer] mouse_btn0_dbl ignore
+[   0.021][v][cplayer] shift+mouse_btn0_dbl ignore
+[   0.021][v][cplayer] mouse_btn2_dbl ignore
+[   0.021][v][cplayer] , force]
+[   0.022][v][cplayer] Run command: enable-section, flags=0, args=[input, ]
+[   0.022][v][cplayer] Run command: define-section, flags=0, args=[input_osc, del script-binding osc/__keybinding8
+[   0.022][v][cplayer] , default]
+[   0.022][v][cplayer] Run command: enable-section, flags=0, args=[input_osc, allow-hide-cursor+allow-vo-dragging]
+[   0.022][v][cplayer] Run command: define-section, flags=0, args=[input_forced_osc, , force]
+[   0.022][v][cplayer] Run command: enable-section, flags=0, args=[input_forced_osc, allow-hide-cursor+allow-vo-dragging]
+[   0.022][v][cplayer] Done loading @osc.lua.
+[   0.022][v][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.022][v][global] config path: 'scripts' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/scripts'
+[   0.022][v][cplayer] Run command: disable-section, flags=0, args=[input]
+[   0.023][v][global] config path: 'scripts' -/-> 'C:/util/mpv-i686-20170423/scripts'
+[   0.023][v][global] config path: 'scripts' -/-> 'C:/util/mpv-i686-20170423/mpv/scripts'
+[   0.023][v][global] config path: 'fonts' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/fonts'
+[   0.023][v][ytdl_hook] loading mp.defaults
+[   0.023][v][global] config path: 'fonts' -/-> 'C:/util/mpv-i686-20170423/fonts'
+[   0.023][v][global] config path: 'fonts' -/-> 'C:/util/mpv-i686-20170423/mpv/fonts'
+[   0.024][v][osd/libass] Shaper: FriBidi 0.19.7 (SIMPLE) HarfBuzz-ng 1.4.5 (COMPLEX)
+[   0.024][v][global] config path: 'subfont.ttf' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/subfont.ttf'
+[   0.024][v][global] config path: 'subfont.ttf' -/-> 'C:/util/mpv-i686-20170423/subfont.ttf'
+[   0.024][v][ytdl_hook] loading @ytdl_hook.lua
+[   0.024][v][global] config path: 'subfont.ttf' -/-> 'C:/util/mpv-i686-20170423/mpv/subfont.ttf'
+[   0.024][v][global] config path: 'fonts.conf' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/fonts.conf'
+[   0.024][v][global] config path: 'fonts.conf' -/-> 'C:/util/mpv-i686-20170423/fonts.conf'
+[   0.024][v][global] config path: 'fonts.conf' -/-> 'C:/util/mpv-i686-20170423/mpv/fonts.conf'
+[   0.024][v][osd/libass] Setting up fonts...
+[   0.025][v][cplayer] Run command: hook-add, flags=0, args=[on_load, 1, 10]
+[   0.025][v][cplayer] Run command: hook-add, flags=0, args=[on_preloaded, 2, 10]
+[   0.025][v][cplayer] Done loading @ytdl_hook.lua.
+[   0.025][v][global] config path: 'scripts' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/scripts'
+[   0.025][v][global] config path: 'scripts' -/-> 'C:/util/mpv-i686-20170423/scripts'
+[   0.025][v][global] config path: 'scripts' -/-> 'C:/util/mpv-i686-20170423/mpv/scripts'
+[   0.025][v][global] config path: 'watch_later' -> 'C:\Users\home-i7\AppData\Roaming/mpv/watch_later'
+[   0.028][i][cplayer] Playing: S:\0905_배시내_석쇠불고기 골목.ts
+[   0.028][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.029][v][osd/libass] Using font provider directwrite
+[   0.029][v][osd/libass] Done.
+[   0.030][v][cplayer] Run command: hook-ack, flags=0, args=[on_load]
+[   0.030][v][ifo] Opening S:\0905_배시내_석쇠불고기 골목.ts
+[   0.031][v][ifo_dvdnav] Opening S:\0905_배시내_석쇠불고기 골목.ts
+[   0.031][v][bdmv/bluray] Opening S:\0905_배시내_석쇠불고기 골목.ts
+[   0.031][v][file] Opening S:\0905_배시내_석쇠불고기 골목.ts
+[   0.031][v][file] Stream opened successfully.
+[   0.031][v][demux] Trying demuxers for level=normal.
+[   0.038][v][lavf] Found 'mpegts' at score=50 size=2048.
+[   0.056][w][ffmpeg/demuxer] mpegts: PES packet size mismatch
+[   0.057][v][lavf] avformat_find_stream_info() finished after 0 bytes.
+[   0.057][v][demux] Detected file format: mpegts (libavformat)
+[   0.057][v][cplayer] Opening done: S:\0905_배시내_석쇠불고기 골목.ts
+[   0.057][v][find_files] Loading external files in S:\
+[   0.058][v][global] config path: 'sub' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/sub'
+[   0.058][v][global] config path: 'sub' -/-> 'C:/util/mpv-i686-20170423/sub'
+[   0.058][v][global] config path: 'sub' -/-> 'C:/util/mpv-i686-20170423/mpv/sub'
+[   0.058][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   0.058][v][cplayer] Run command: hook-ack, flags=0, args=[on_preloaded]
+[   0.060][i][cplayer]  (+) Video --vid=1 (mpeg2video 1920x1080 29.970fps)
+[   0.061][i][cplayer]  (+) Audio --aid=1 --alang=kor (ac3 2ch 48000Hz)
+[   0.062][v][vo/opengl] Initializing OpenGL backend 'angle'
+[   0.076][v][vo/opengl] Using Direct3D 11 feature level 11_0
+[   0.085][v][vo/opengl] EGL_VERSION=1.4 (ANGLE 2.1.0.966c940b0d45)
+[   0.085][v][vo/opengl] EGL_VENDOR=Google Inc. (adapter LUID: 0000000000030ad3)
+[   0.085][v][vo/opengl] EGL_CLIENT_APIS=OpenGL_ES
+[   0.085][v][vo/opengl] Trying to create GLES 3.x context.
+[   0.086][v][vo/opengl] Using DXGI 1.2+
+[   0.086][v][vo/opengl] Using flip-model presentation
+[   0.086][v][vo/opengl] GL_VERSION='OpenGL ES 3.0 (ANGLE 2.1.0.966c940b0d45)'
+[   0.086][v][vo/opengl] Detected GLES 3.0.
+[   0.086][v][vo/opengl] GL_VENDOR='Google Inc.'
+[   0.086][v][vo/opengl] GL_RENDERER='ANGLE (AMD Radeon HD 5670 Direct3D11 vs_5_0 ps_5_0)'
+[   0.086][v][vo/opengl] GL_SHADING_LANGUAGE_VERSION='OpenGL ES GLSL ES 3.00 (ANGLE 2.1.0.966c940b0d45)'
+[   0.086][v][vo/opengl] Loaded extension GL_EXT_texture_norm16.
+[   0.086][v][vo/opengl] Loaded extension GL_EXT_color_buffer_half_float.
+[   0.086][v][vo/opengl] Loaded extension GL_EXT_disjoint_timer_query.
+[   0.086][v][vo/opengl] Loaded extension GL_ANGLE_translated_shader_source.
+[   0.087][v][vo/opengl] 16 bit texture depth: 16.
+[   0.087][v][vo/opengl] Testing FBO format 0x805b
+[   0.087][v][vo/opengl] Create FBO: 16x16 (16x16)
+[   0.087][v][vo/opengl] Using FBO format 0x805b.
+[   0.087][v][vo/opengl] No advanced processing required. Enabling dumb mode.
+[   0.087][v][vo/opengl/win32] DPI detected from the old API: 96
+[   0.088][v][vo/opengl/win32] display-fps: 60.000000
+[   0.091][v][vo/opengl/win32] color-profile: C:\Windows\system32\spool\drivers\color\sRGB Color Space Profile.icm
+[   0.091][v][vo/opengl] Assuming 60.000000 FPS for display sync.
+[   0.095][v][vd] Container reported FPS: 29.970030
+[   0.096][v][vd] Codec list:
+[   0.096][v][vd]     mpeg2video - MPEG-2 video
+[   0.096][v][vd]     mpegvideo (mpeg2video) - MPEG-1 video
+[   0.096][v][vd]     mpeg2_cuvid (mpeg2video) - Nvidia CUVID MPEG2VIDEO decoder
+[   0.096][v][vd] Opening video decoder mpeg2video
+[   0.096][v][vd] Using software decoding.
+[   0.096][v][vd] Detected 16 logical cores.
+[   0.096][v][vd] Requesting 16 threads for decoding.
+[   0.097][v][vd] Selected video codec: mpeg2video (MPEG-2 video)
+[   0.098][v][ad] Codec list:
+[   0.098][v][ad]     ac3 - ATSC A/52A (AC-3)
+[   0.098][v][ad]     ac3_fixed (ac3) - ATSC A/52A (AC-3)
+[   0.098][v][ad] Opening audio decoder ac3
+[   0.099][v][ad] Requesting 1 threads for decoding.
+[   0.099][v][ad] Selected audio codec: ac3 (ATSC A/52A (AC-3))
+[   0.099][v][cplayer] Starting playback...
+[   0.101][v][af] Audio filter chain:
+[   0.101][v][af]   [in] 48000Hz stereo 2ch floatp
+[   0.101][v][af]   [out] 48000Hz stereo 2ch floatp
+[   0.101][v][af]   [ao] 48000Hz stereo 2ch floatp
+[   0.101][v][ao] Trying audio driver 'wasapi'
+[   0.101][v][ao/wasapi] requested format: 48000 Hz, stereo channels, floatp
+[   0.104][v][ao/wasapi] No device specified. Selecting default.
+[   0.107][v][ao/wasapi] Selecting device '{2ba0720f-d277-4a9b-9fa7-3c8a053ba954}' (스피커(Realtek High Definition Audio))
+[   0.107][v][ao/wasapi] Monitoring changes in device {0.0.0.00000000}.{2ba0720f-d277-4a9b-9fa7-3c8a053ba954}
+[   0.130][v][ao/wasapi] Trying stereo float @ 48000hz (shared) -> ok
+[   0.130][v][ao/wasapi] Accepted as stereo float @ 48000hz (shared)
+[   0.130][v][ao/wasapi] Device period: 10 ms
+[   0.144][v][ao/wasapi] Buffer frame count: 2400 (50 ms)
+[   0.144][v][ao/wasapi] IAudioClock::GetFrequency gave a frequency of 384000.
+[   0.145][v][ao/wasapi] device buffer: 2400 samples.
+[   0.145][v][ao/wasapi] using soft-buffer of 9600 samples.
+[   0.146][i][cplayer] AO: [wasapi] 48000Hz stereo 2ch float
+[   0.146][v][cplayer] AO: Description: Windows WASAPI audio output (event mode)
+[   0.147][v][af] Adding filter lavrresample 
+[   0.147][v][af] Audio filter chain:
+[   0.147][v][af]   [in] 48000Hz stereo 2ch floatp
+[   0.147][v][af]   [lavrresample] 48000Hz stereo 2ch float [a]
+[   0.147][v][af]   [out] 48000Hz stereo 2ch float
+[   0.147][v][af]   [ao] 48000Hz stereo 2ch float
+[   0.167][v][vd] Decoder format: 1920x1080 yuv420p auto/auto/auto/limited CL=mpeg2/4/h264
+[   0.167][v][vf] Video filter chain:
+[   0.167][v][vf]   [in] 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited CL=mpeg2/4/h264
+[   0.167][v][vf]   [out] 1920x1080 yuv420p bt.709/bt.709/bt.1886/limited CL=mpeg2/4/h264
+[   0.168][i][cplayer] VO: [opengl] 1920x1080 yuv420p
+[   0.168][v][cplayer] VO: Description: Extended OpenGL Renderer
+[   0.172][v][vo/opengl/win32] reset window bounds: 312:150:1936:1118
+[   0.174][v][vo/opengl/win32] resize window: 1920:1080
+[   0.175][v][vo/opengl] Resize: 1920x1080
+[   0.175][v][vo/opengl] Window size: 1920x1080
+[   0.175][v][vo/opengl] Video source: 1920x1080 (1:1)
+[   0.175][v][vo/opengl] Video display: (0, 0) 1920x1080 -> (0, 0) 1920x1080
+[   0.175][v][vo/opengl] Video scale: 1.000000/1.000000
+[   0.175][v][vo/opengl] OSD borders: l=0 t=0 r=0 b=0
+[   0.175][v][vo/opengl] Video borders: l=0 t=0 r=0 b=0
+[   0.175][v][vo/opengl] Testing FBO format 0x805b
+[   0.175][v][vo/opengl] Create FBO: 16x16 (16x16)
+[   0.175][v][vo/opengl] Using FBO format 0x805b.
+[   0.175][v][vo/opengl] No advanced processing required. Enabling dumb mode.
+[   0.175][v][vo/opengl] Texture for plane 0: 1920x1080
+[   0.175][v][vo/opengl] Texture for plane 1: 960x540
+[   0.175][v][vo/opengl] Texture for plane 2: 960x540
+[   0.175][v][cplayer] set video colors output-levels=0 
+[   0.179][v][vo/opengl] Resize: 1920x1080
+[   0.179][v][vo/opengl] Window size: 1920x1080
+[   0.179][v][vo/opengl] Video source: 1920x1080 (1:1)
+[   0.179][v][vo/opengl] Video display: (0, 0) 1920x1080 -> (0, 0) 1920x1080
+[   0.179][v][vo/opengl] Video scale: 1.000000/1.000000
+[   0.179][v][vo/opengl] OSD borders: l=0 t=0 r=0 b=0
+[   0.179][v][vo/opengl] Video borders: l=0 t=0 r=0 b=0
+[   0.179][v][vo/opengl] Reported display depth: 8
+[   0.181][v][vo/opengl] new shader program:
+[   0.181][v][vo/opengl] [  1] color.r = 1.000000 * vec4(texture(texture0, texcoord0)).r;
+[   0.181][v][vo/opengl] [  2] color.g = 1.000000 * vec4(texture(texture1, texcoord1)).r;
+[   0.181][v][vo/opengl] [  3] color.b = 1.000000 * vec4(texture(texture2, texcoord2)).r;
+[   0.181][v][vo/opengl] [  4] // color conversion
+[   0.181][v][vo/opengl] [  5] color = color.rgba;
+[   0.181][v][vo/opengl] [  6] color.rgb = mat3(colormatrix) * color.rgb + colormatrix_c;
+[   0.181][v][vo/opengl] [  7] color.a = 1.0;
+[   0.181][v][vo/opengl] [  8] // color mapping
+[   0.199][v][vo/opengl] shader link log (status=1): 
+[   0.199][v][vo/opengl] 
+[   0.199][v][vo/opengl] 
+[   0.199][v][vo/opengl] 
+[   0.200][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[   0.221][v][cplayer] first video frame after restart shown
+[   0.222][i][cplayer]  (+) Video --vid=1 (mpeg2video 1920x1080 29.970fps)
+[   0.223][i][cplayer]  (+) Audio --aid=1 --alang=kor (ac3 2ch 48000Hz)
+[   0.224][i][cplayer]      Subs  --sid=1 (eia_608)
+[   0.225][v][cplayer] starting audio playback
+[   0.225][v][cplayer] playback restart complete
+[   0.847][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.847][v][cplayer] Run command: enable-section, flags=0, args=[input, ]
+[   0.848][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.855][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.857][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.858][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.863][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.863][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.872][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.872][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.874][v][osd/libass] fontselect: (mpv-osd-symbols, 400, 0) -> mpv-osd-symbols-Regular, 0, mpv-osd-symbols-Regular
+[   0.874][v][osd/libass] Glyph 0xBC30 not found, selecting one more font for (sans-serif, 400, 0)
+[   0.875][v][osd/libass] fontselect: (sans-serif, 400, 0) -> MalgunGothicRegular, 0, MalgunGothicRegular
+[   0.879][v][vo/opengl] Reallocating OSD texture to 2048x256.
+[   0.879][v][vo/opengl] new shader program:
+[   0.879][v][vo/opengl] [  1] // OSD (libass)
+[   0.879][v][vo/opengl] [  2] color = vec4(ass_color.rgb, ass_color.a * texture(osdtex, texcoord).r);
+[   0.879][v][vo/opengl] [  3] // color mapping
+[   0.880][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.881][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.884][v][vo/opengl] shader link log (status=1): 
+[   0.884][v][vo/opengl] 
+[   0.884][v][vo/opengl] 
+[   0.884][v][vo/opengl] 
+[   0.888][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.890][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.891][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.896][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.897][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.903][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.904][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.911][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.911][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.919][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.920][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.927][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.931][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.931][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.944][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.945][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.952][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.953][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.959][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.961][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.962][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.967][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.967][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   0.975][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   0.976][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.007][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.041][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.074][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.108][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.141][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.144][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   1.145][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.152][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   1.153][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.160][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   1.163][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.164][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.168][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   1.169][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.176][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[   1.177][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.183][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding2]
+[   1.194][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.227][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.248][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding2]
+[   1.273][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.309][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.341][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.376][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[   1.408][v][cplayer] Run command: disable-section, flags=0, args=[input]
+[  16.055][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.087][v][cplayer] Run command: enable-section, flags=0, args=[input, ]
+[  16.087][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.090][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.090][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.090][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.091][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.092][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.096][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.097][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.103][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.106][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.107][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.111][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.111][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.119][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.119][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.128][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.129][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.136][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.139][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.140][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.144][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.144][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.152][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.152][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.160][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.161][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.176][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.179][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.179][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.184][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.184][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.200][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.201][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.208][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.211][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.212][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.215][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.215][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.223][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.223][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.232][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.232][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.240][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.243][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.244][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.248][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.248][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.256][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.256][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.264][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.264][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.271][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.273][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.274][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.279][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.279][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.287][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.288][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.296][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.296][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.304][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.307][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.307][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.312][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.312][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.320][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.321][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.328][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.328][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.335][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.335][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.343][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.346][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.347][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.352][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.352][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.360][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.360][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.368][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.368][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.376][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.378][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.379][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.384][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.384][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.392][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.392][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.422][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.457][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.489][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.523][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.557][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.586][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.608][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.611][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.612][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.616][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.616][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.624][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.624][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.631][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.631][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.639][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.643][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.643][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.648][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.648][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.656][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.656][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.664][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.664][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.673][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.673][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.674][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.680][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.680][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.688][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.688][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.695][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.695][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.703][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.704][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.707][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.712][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.713][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.720][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.720][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.728][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.728][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.736][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.737][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.740][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.744][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.744][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.752][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.752][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.759][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.760][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.768][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.769][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.776][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.779][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.780][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.784][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.784][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.792][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.792][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.800][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.801][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.828][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.857][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.889][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.904][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.907][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.908][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.911][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.911][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.944][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.947][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.948][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.951][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.951][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.960][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.961][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.968][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.968][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.976][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.980][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.981][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.984][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.984][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  16.992][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  16.993][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.000][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  17.000][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.008][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding2]
+[  17.011][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.043][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.073][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.107][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.147][v][cplayer] Run command: seek, flags=9, args=[60.000000, relative, unused]
+[  17.147][v][lavf] queuing seek to 77.212089
+[  17.148][v][lavf] execute seek (to 86148.340933 flags 4)
+[  17.149][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.150][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.153][w][ffmpeg/demuxer] mpegts: PES packet size mismatch
+[  17.155][w][ffmpeg/demuxer] mpegts: PES packet size mismatch
+[  17.157][w][ffmpeg/demuxer] mpegts: PES packet size mismatch
+[  17.159][w][ffmpeg/demuxer] mpegts: PES packet size mismatch
+[  17.163][v][lavf] seek done
+[  17.172][v][vd] Decoder format: 1920x1080 yuv420p auto/auto/auto/limited CL=mpeg2/4/h264
+[  17.175][v][global] config path: 'fonts' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/fonts'
+[  17.175][v][global] config path: 'fonts' -/-> 'C:/util/mpv-i686-20170423/fonts'
+[  17.175][v][global] config path: 'fonts' -/-> 'C:/util/mpv-i686-20170423/mpv/fonts'
+[  17.176][v][osd/libass] Shaper: FriBidi 0.19.7 (SIMPLE) HarfBuzz-ng 1.4.5 (COMPLEX)
+[  17.176][v][global] config path: 'subfont.ttf' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/subfont.ttf'
+[  17.176][v][global] config path: 'subfont.ttf' -/-> 'C:/util/mpv-i686-20170423/subfont.ttf'
+[  17.177][v][global] config path: 'subfont.ttf' -/-> 'C:/util/mpv-i686-20170423/mpv/subfont.ttf'
+[  17.177][v][global] config path: 'fonts.conf' -/-> 'C:\Users\home-i7\AppData\Roaming/mpv/fonts.conf'
+[  17.177][v][global] config path: 'fonts.conf' -/-> 'C:/util/mpv-i686-20170423/fonts.conf'
+[  17.177][v][global] config path: 'fonts.conf' -/-> 'C:/util/mpv-i686-20170423/mpv/fonts.conf'
+[  17.177][v][osd/libass] Setting up fonts...
+[  17.182][v][osd/libass] Using font provider directwrite
+[  17.182][v][osd/libass] Done.
+[  17.182][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[  17.184][v][vo/opengl] Reallocating OSD texture to 2048x128.
+[  17.186][v][cplayer] first video frame after restart shown
+[  17.187][v][cplayer] starting audio playback
+[  17.187][v][cplayer] playback restart complete
+[  17.187][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.196][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  17.226][v][cplayer] Run command: disable-section, flags=0, args=[input]
+[  17.640][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding2]
+[  18.712][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.712][v][cplayer] Run command: enable-section, flags=0, args=[input, ]
+[  18.713][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.720][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.720][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.728][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.730][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.730][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.736][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.736][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.744][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.746][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.752][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.752][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.760][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.762][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.763][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.768][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.769][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.776][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.776][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.784][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.784][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.792][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.796][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.796][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.800][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.800][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.808][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.808][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.816][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.816][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.824][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.824][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.832][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.834][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.835][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.840][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.841][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.848][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.848][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.856][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.856][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.864][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.868][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.868][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.872][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.872][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.880][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.880][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.888][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.888][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.896][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.900][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.900][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.904][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  18.904][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.912][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding2]
+[  18.928][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.962][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  18.996][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  19.034][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  19.067][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  19.100][v][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  19.130][v][cplayer] Run command: disable-section, flags=0, args=[input]
+[  19.620][v][cplayer] Run command: seek, flags=9, args=[60.000000, relative, unused]
+[  19.620][v][lavf] queuing seek to 139.774589
+[  19.620][v][lavf] execute seek (to 86210.903433 flags 4)
+[  19.625][v][lavf] seek done
+[  19.635][v][vd] Decoder format: 1920x1080 yuv420p auto/auto/auto/limited CL=mpeg2/4/h264
+[  19.646][v][cplayer] first video frame after restart shown
+[  19.647][v][cplayer] starting audio playback
+[  19.647][v][cplayer] playback restart complete
+[  20.128][v][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding2]
